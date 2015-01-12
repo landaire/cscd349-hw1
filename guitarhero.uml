@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>guitarhero</OriginalElement>
+  <nodes>
+    <node x="154.0" y="607.0">guitarhero.GuitarFlyingV</node>
+    <node x="471.0" y="190.0">guitarhero.GameCharacterHendrix</node>
+    <node x="151.0" y="506.0">guitarhero.GuitarBehavior</node>
+    <node x="291.0" y="607.0">guitarhero.GuitarSg</node>
+    <node x="204.0" y="410.0">guitarhero.JumpOffStageBehavior</node>
+    <node x="395.0" y="410.0">guitarhero.SmashGuitarBehavior</node>
+    <node x="0.0" y="607.0">guitarhero.GuitarTelecaster</node>
+    <node x="453.0" y="506.0">guitarhero.Main</node>
+    <node x="219.0" y="309.0">guitarhero.SoloBehavior</node>
+    <node x="213.0" y="0.0">guitarhero.GameCharacter</node>
+    <node x="239.0" y="190.0">guitarhero.GameCharacterSlash</node>
+    <node x="0.0" y="190.0">guitarhero.GameCharacterYoung</node>
+    <node x="0.0" y="410.0">guitarhero.PutGuitarOnFireBehavior</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="guitarhero.JumpOffStageBehavior" target="guitarhero.SoloBehavior">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="guitarhero.SmashGuitarBehavior" target="guitarhero.SoloBehavior">
+      <point x="0.0" y="-25.5" />
+      <point x="477.0" y="385.0" />
+      <point x="336.5" y="385.0" />
+      <point x="47.0" y="25.5" />
+    </edge>
+    <edge source="guitarhero.GuitarTelecaster" target="guitarhero.GuitarBehavior">
+      <point x="0.0" y="-25.5" />
+      <point x="67.0" y="582.0" />
+      <point x="171.5" y="582.0" />
+      <point x="-41.0" y="25.5" />
+    </edge>
+    <edge source="guitarhero.GuitarFlyingV" target="guitarhero.GuitarBehavior">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="guitarhero.GameCharacterSlash" target="guitarhero.GameCharacter">
+      <point x="0.0" y="-37.0" />
+      <point x="0.0" y="70.0" />
+    </edge>
+    <edge source="guitarhero.GameCharacterYoung" target="guitarhero.GameCharacter">
+      <point x="0.0" y="-37.0" />
+      <point x="109.5" y="165.0" />
+      <point x="257.0" y="165.0" />
+      <point x="-88.0" y="70.0" />
+    </edge>
+    <edge source="guitarhero.GameCharacterHendrix" target="guitarhero.GameCharacter">
+      <point x="0.0" y="-37.0" />
+      <point x="585.5" y="165.0" />
+      <point x="433.0" y="165.0" />
+      <point x="88.0" y="70.0" />
+    </edge>
+    <edge source="guitarhero.PutGuitarOnFireBehavior" target="guitarhero.SoloBehavior">
+      <point x="0.0" y="-25.5" />
+      <point x="92.0" y="385.0" />
+      <point x="242.5" y="385.0" />
+      <point x="-47.0" y="25.5" />
+    </edge>
+    <edge source="guitarhero.GuitarSg" target="guitarhero.GuitarBehavior">
+      <point x="0.0" y="-25.5" />
+      <point x="349.5" y="582.0" />
+      <point x="253.5" y="582.0" />
+      <point x="41.0" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7519685039370079" x="302.3874345549738" y="264.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
