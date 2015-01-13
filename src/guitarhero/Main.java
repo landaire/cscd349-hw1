@@ -16,9 +16,9 @@ public class Main {
         };
 
         SoloBehavior[] solos = {
-                new PutGuitarOnFireBehavior(),
-                new SmashGuitarBehavior(),
-                new JumpOffStageBehavior(),
+                new PutGuitarOnFireSoloBehavior(),
+                new SmashGuitarSoloBehavior(),
+                new JumpOffStageSoloBehavior(),
         };
 
         System.out.println("--BASE CONFIGURATIONS--\n");

@@ -7,7 +7,7 @@ public class GameCharacterSlash extends GameCharacter {
 
     public GameCharacterSlash() {
         guitar = new GuitarFlyingV();
-        solo = new SmashGuitarBehavior();
+        solo = new SmashGuitarSoloBehavior();
     }
 
     public String name() {

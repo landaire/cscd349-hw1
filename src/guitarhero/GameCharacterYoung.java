@@ -7,7 +7,7 @@ public class GameCharacterYoung extends GameCharacter {
 
     public GameCharacterYoung() {
         guitar = new GuitarTelecaster();
-        solo = new PutGuitarOnFireBehavior();
+        solo = new PutGuitarOnFireSoloBehavior();
     }
 
     public String name() {

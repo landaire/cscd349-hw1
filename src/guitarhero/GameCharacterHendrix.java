@@ -6,7 +6,7 @@ package guitarhero;
 public class GameCharacterHendrix extends GameCharacter {
     public GameCharacterHendrix() {
         this.guitar = new GuitarSg();
-        this.solo = new JumpOffStageBehavior();
+        this.solo = new JumpOffStageSoloBehavior();
     }
 
     public String name() {
