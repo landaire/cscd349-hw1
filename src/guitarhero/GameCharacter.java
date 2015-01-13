@@ -23,6 +23,22 @@ public abstract class GameCharacter {
         solo.perform();
     }
 
+    public void changeGuitar(GuitarBehavior guitar) {
+        if (guitar == null ) {
+            throw new IllegalArgumentException("Guitar cannot be null");
+        }
+
+        this.guitar = guitar;
+    }
+
+    public void changeSolo(SoloBehavior solo) {
+        if (solo == null ) {
+            throw new IllegalArgumentException("Solo cannot be null");
+        }
+
+        this.solo = solo;
+    }
+
     /**
      * @return Character name
      */
