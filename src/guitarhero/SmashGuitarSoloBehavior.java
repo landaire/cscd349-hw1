@@ -1,7 +1,9 @@
 package guitarhero;
 
 /**
- * Created by Lander Brandt on 1/12/15.
+ * Lander Brandt
+ * Sean Burright
+ * Tony Moua
  */
 public class SmashGuitarSoloBehavior implements SoloBehavior {
     public void perform() {
